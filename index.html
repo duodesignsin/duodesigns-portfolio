@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DUO DESIGNS — Freelance Graphic Design Studio</title>
+  <meta name="description" content="DUO DESIGNS is an independent freelance creative studio operated by two designers. Designing ideas, creating impact across visual identity, posters, and digital creatives.">
+  <meta name="theme-color" content="#FFFFFF">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="DUO DESIGNS — Creative Graphic Design Studio">
+  <meta property="og:description" content="Designing Ideas, Creating Impact. Explore branding, concept advertisements, and visual communication.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/duo-designs-logo.png">
+
+  <!-- Modern Fonts: Plus Jakarta Sans & Space Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Sleek Agency Cursor -->
+  <div class="custom-cursor" id="customCursor" aria-hidden="true"></div>
+  <div class="cursor-trail" id="cursorTrail" aria-hidden="true"></div>
+
+  <!-- Minimal Sticky Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-container">
+      <a href="#" class="brand-link" aria-label="DUO DESIGNS Home">
+        <img src="assets/duo-designs-logo.png" alt="DUO DESIGNS" class="header-logo-img">
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <a href="#work" class="nav-item"><span>WORK</span></a>
+        <a href="#about" class="nav-item"><span>ABOUT</span></a>
+        <a href="#services" class="nav-item"><span>SERVICES</span></a>
+        <a href="#process" class="nav-item"><span>PROCESS</span></a>
+        <a href="#contact" class="nav-item nav-cta"><span>CONTACT</span></a>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+        <span class="hamburger-line line-1"></span>
+        <span class="hamburger-line line-2"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Overlay -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+      <div class="mobile-drawer-inner">
+        <span class="drawer-kicker">NAVIGATION</span>
+        <nav class="mobile-nav-links">
+          <a href="#work" class="mobile-link"><span class="link-num">01</span><span class="link-text">WORK</span></a>
+          <a href="#about" class="mobile-link"><span class="link-num">02</span><span class="link-text">ABOUT</span></a>
+          <a href="#services" class="mobile-link"><span class="link-num">03</span><span class="link-text">SERVICES</span></a>
+          <a href="#process" class="mobile-link"><span class="link-num">04</span><span class="link-text">PROCESS</span></a>
+          <a href="#contact" class="mobile-link"><span class="link-num">05</span><span class="link-text">CONTACT</span></a>
+        </nav>
+        <div class="mobile-drawer-footer">
+          <span class="footer-handle">INSTAGRAM: @duodesigns.in</span>
+          <span class="footer-tagline">DESIGNING IDEAS, CREATING IMPACT</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Continuous Content -->
+  <main id="mainContent">
+
+    <!-- =======================================================
+         1. HERO SECTION
+         ======================================================= -->
+    <section class="hero-section" id="hero">
+      <div class="hero-noise-overlay" aria-hidden="true"></div>
+      
+      <div class="container hero-container">
+        
+        <!-- Top Status Bar -->
+        <div class="hero-meta-bar reveal-fade">
+          <div class="studio-status">
+            <span class="status-pulse"></span>
+            <span class="status-label">INDEPENDENT CREATIVE PRACTICE &bull; DUO PARTNERSHIP</span>
+          </div>
+          <div class="studio-disciplines">
+            <span>GRAPHIC DESIGN</span>
+            <span class="meta-slash">/</span>
+            <span>BRANDING</span>
+            <span class="meta-slash">/</span>
+            <span>SOCIAL MEDIA</span>
+          </div>
+        </div>
+
+        <!-- Main Editorial Hero Block -->
+        <div class="hero-main-grid">
+          <div class="hero-typography">
+            <h1 class="hero-brand-name reveal-up">
+              <span class="word-duo">DUO</span>
+              <span class="word-designs">DESIGNS</span>
+            </h1>
+
+            <div class="hero-tagline-block reveal-up" style="animation-delay: 0.15s;">
+              <div class="tagline-hairline"></div>
+              <h2 class="hero-statement">
+                DESIGNING IDEAS,<br>
+                <span class="statement-accent">CREATING IMPACT.</span>
+              </h2>
+            </div>
+
+            <p class="hero-supporting-text reveal-up" style="animation-delay: 0.25s;">
+              A two-person creative studio crafting bold visual identities, social media designs, promotional graphics and digital experiences.
+            </p>
+
+            <div class="hero-actions-group reveal-up" style="animation-delay: 0.35s;">
+              <a href="#work" class="btn-agency-primary">
+                <span>VIEW OUR WORK</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+              </a>
+              <a href="#contact" class="btn-agency-secondary">
+                <span>LET’S WORK TOGETHER</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Right Side: Logo Only -->
+          <div class="hero-visual-col reveal-fade" style="animation-delay: 0.2s;">
+            <div class="hero-logo-box">
+              <img src="assets/duo-designs-logo.png" alt="DUO DESIGNS" class="hero-box-logo">
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Bottom Anchor Indicator -->
+        <div class="hero-scroll-indicator reveal-fade" style="animation-delay: 0.4s;">
+          <a href="#work" class="scroll-down-link" aria-label="Scroll to Selected Work">
+            <span class="scroll-txt">SCROLL TO EXPLORE</span>
+            <div class="scroll-mouse-icon">
+              <span class="scroll-wheel"></span>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =======================================================
+         2. SELECTED WORK SECTION (Asymmetric Editorial Showcase)
+         ======================================================= -->
+    <section class="work-section section-padding" id="work">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header-editorial reveal-up">
+          <div class="header-pre-title">
+            <span class="editorial-num">01</span>
+            <span class="editorial-kicker">PORTFOLIO SHOWCASE</span>
+          </div>
+          <div class="header-title-flex">
+            <h2 class="editorial-main-title">SELECTED WORK</h2>
+            <p class="editorial-lead-desc">
+              A selection of visual concepts and design explorations created by DUO DESIGNS.
+            </p>
+          </div>
+        </div>
+
+        <!-- Asymmetric Project Stream -->
+        <div class="projects-stream">
+
+          <!-- Project 01: COFFEE — Full Width Asymmetric Feature -->
+          <article class="project-feature-row layout-left reveal-up" id="project-coffee">
+            <div class="project-media-column">
+              <div class="project-image-bezel" onclick="DUO_AGENCY.openModal('assets/coffee-concept.png', 'COFFEE — CONCEPT ADVERTISEMENT', 'Concept Advertisement', 'Composition • Typography • Product Visual', 'A conceptual product advertisement exploring composition, typography, product placement and visual storytelling.')">
+                <img src="assets/coffee-concept.png" alt="Brew & Bean Coffee Concept Advertisement" class="project-artwork-img" loading="lazy">
+                <div class="project-hover-badge">
+                  <span>EXPAND ARTWORK &plus;</span>
+                </div>
+                <div class="corner-cross top-left">+</div>
+                <div class="corner-cross bottom-right">+</div>
+              </div>
+            </div>
+            
+            <div class="project-info-column">
+              <div class="project-top-meta">
+                <span class="project-index">01</span>
+                <span class="honest-badge">CONCEPT DESIGN</span>
+              </div>
+              
+              <h3 class="project-editorial-title">COFFEE</h3>
+              <p class="project-editorial-subtitle">Concept Advertisement</p>
+              
+              <div class="project-focus-pill">
+                <span class="focus-label">FOCUS:</span>
+                <span class="focus-val">Composition &bull; Typography &bull; Product Visual</span>
+              </div>
+
+              <p class="project-narrative">
+                A conceptual product advertisement exploring warm neutral composition, roasted coffee bean spatial perspective, and bold headline hierarchy centered around the warm artisanal brew.
+              </p>
+
+              <div class="project-meta-table">
+                <div class="table-cell">
+                  <span class="cell-label">CATEGORY</span>
+                  <span class="cell-val">Product Poster &bull; Advertising</span>
+                </div>
+                <div class="table-cell">
+                  <span class="cell-label">STUDIO</span>
+                  <span class="cell-val">DUO DESIGNS</span>
+                </div>
+              </div>
+
+              <div class="project-action-link">
+                <button type="button" class="btn-inline-inspect" onclick="DUO_AGENCY.openModal('assets/coffee-concept.png', 'COFFEE — CONCEPT ADVERTISEMENT', 'Concept Advertisement', 'Composition • Typography • Product Visual', 'A conceptual product advertisement exploring composition, typography, product placement and visual storytelling.')">
+                  <span>INSPECT COMPOSITION</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02: VOLT — Inverted Asymmetric Feature -->
+          <article class="project-feature-row layout-right reveal-up" id="project-volt">
+            <div class="project-info-column">
+              <div class="project-top-meta">
+                <span class="project-index">02</span>
+                <span class="honest-badge">CONCEPT DESIGN</span>
+              </div>
+              
+              <h3 class="project-editorial-title">VOLT</h3>
+              <p class="project-editorial-subtitle">Concept Advertisement</p>
+              
+              <div class="project-focus-pill">
+                <span class="focus-label">FOCUS:</span>
+                <span class="focus-val">Visual Impact &bull; Typography &bull; Composition</span>
+              </div>
+
+              <p class="project-narrative">
+                High-contrast energy product advertisement engineered with energetic midnight-blue backdrop, condensation can framing, and high-conversion commercial price anchoring.
+              </p>
+
+              <div class="project-meta-table">
+                <div class="table-cell">
+                  <span class="cell-label">CATEGORY</span>
+                  <span class="cell-val">Energy Formula &bull; Retail Poster</span>
+                </div>
+                <div class="table-cell">
+                  <span class="cell-label">STUDIO</span>
+                  <span class="cell-val">DUO DESIGNS</span>
+                </div>
+              </div>
+
+              <div class="project-action-link">
+                <button type="button" class="btn-inline-inspect" onclick="DUO_AGENCY.openModal('assets/volt-concept.jpg', 'VOLT — CONCEPT ADVERTISEMENT', 'Concept Advertisement', 'Visual Impact • Typography • Composition', 'A conceptual energy-product advertisement focused on bold visual hierarchy, contrast, typography and promotional composition.')">
+                  <span>INSPECT COMPOSITION</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="project-media-column">
+              <div class="project-image-bezel" onclick="DUO_AGENCY.openModal('assets/volt-concept.jpg', 'VOLT — CONCEPT ADVERTISEMENT', 'Concept Advertisement', 'Visual Impact • Typography • Composition', 'A conceptual energy-product advertisement focused on bold visual hierarchy, contrast, typography and promotional composition.')">
+                <img src="assets/volt-concept.jpg" alt="Volt Energy Drink Concept Advertisement" class="project-artwork-img" loading="lazy">
+                <div class="project-hover-badge">
+                  <span>EXPAND ARTWORK &plus;</span>
+                </div>
+                <div class="corner-cross top-left">+</div>
+                <div class="corner-cross bottom-right">+</div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03: AMUL & Additional Concept Split Feature -->
+          <div class="projects-dual-grid reveal-up">
+            
+            <!-- Amul Brand Concept -->
+            <article class="project-card-compact" id="project-amul">
+              <div class="compact-media-wrap" onclick="DUO_AGENCY.openModal('assets/amul-concept.png', 'AMUL — BRAND CONCEPT', 'Brand Concept', 'Advertising • Composition • Visual Storytelling', 'Self-initiated brand concept celebrating heritage packaging, buttery swirls, toasted bread, and appetizing commercial staging.')">
+                <img src="assets/amul-concept.png" alt="Amul Brand Concept Artwork" class="compact-img" loading="lazy">
+                <div class="project-hover-badge">
+                  <span>EXPAND ARTWORK &plus;</span>
+                </div>
+              </div>
+              <div class="compact-info">
+                <div class="compact-top">
+                  <span class="project-index">03</span>
+                  <span class="honest-badge">BRAND CONCEPT</span>
+                </div>
+                <h3 class="compact-title">AMUL</h3>
+                <p class="compact-sub">Brand Concept</p>
+                <div class="compact-focus">
+                  <span>Focus: Advertising &bull; Composition &bull; Visual Storytelling</span>
+                </div>
+                <p class="compact-desc">
+                  Self-initiated conceptual packaging celebration combining iconic mascot heritage with appetizing dairy splashes in a dramatic dark frame.
+                </p>
+              </div>
+            </article>
+
+            <!-- Coca-Cola Concept Advertisement -->
+            <article class="project-card-compact" id="project-coke">
+              <div class="compact-media-wrap" onclick="DUO_AGENCY.openModal('assets/coca-cola-concept.jpg', 'COCA-COLA — CONCEPT ADVERTISEMENT', 'Concept Advertisement', 'Fluid Splash • Lighting Dynamics • Brand Focal Point', 'Conceptual beverage advertisement spotlighting high-energy fluid splashes and iconic crimson contrast.')">
+                <img src="assets/coca-cola-concept.jpg" alt="Coca-Cola Concept Advertisement Artwork" class="compact-img" loading="lazy">
+                <div class="project-hover-badge">
+                  <span>EXPAND ARTWORK &plus;</span>
+                </div>
+              </div>
+              <div class="compact-info">
+                <div class="compact-top">
+                  <span class="project-index">04</span>
+                  <span class="honest-badge">CONCEPT DESIGN</span>
+                </div>
+                <h3 class="compact-title">COCA-COLA</h3>
+                <p class="compact-sub">Concept Advertisement</p>
+                <div class="compact-focus">
+                  <span>Focus: Fluid Splash &bull; Lighting Dynamics &bull; Color</span>
+                </div>
+                <p class="compact-desc">
+                  Liquid dynamic study and crimson contrast designed to command visual focal dominance on fast-scrolling digital feeds.
+                </p>
+              </div>
+            </article>
+
+          </div>
+
+        </div>
+
+        <!-- View All Work Bottom Banner -->
+        <div class="work-cta-row reveal-up">
+          <div class="cta-banner-content">
+            <span class="banner-note">HONEST PRACTICE NOTICE: ALL FEATURED CREATIVE WORKS ARE SELF-INITIATED STUDIO CONCEPTS DEMONSTRATING REAL TECHNICAL &amp; ARTISTIC CAPABILITY.</span>
+            <button type="button" class="btn-agency-primary" onclick="DUO_AGENCY.openAllWorkDrawer()">
+              <span>VIEW ALL WORK</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =======================================================
+         3. ABOUT SECTION (Minimal, Typography-Focused)
+         ======================================================= -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        
+        <!-- Header -->
+        <div class="section-header-editorial reveal-up">
+          <div class="header-pre-title">
+            <span class="editorial-num">02</span>
+            <span class="editorial-kicker">STUDIO ETHOS</span>
+          </div>
+          <h2 class="editorial-main-title">WE CREATE DIFFERENT.</h2>
+        </div>
+
+        <!-- Editorial About Body -->
+        <div class="about-editorial-grid">
+          
+          <div class="about-lead-copy reveal-up">
+            <p class="big-statement-paragraph">
+              DUO DESIGNS is an independent creative studio built by two designers with one shared goal — turning ideas into visuals that stand out.
+            </p>
+            <p class="secondary-statement-paragraph">
+              We focus on clean composition, strong typography, bold visual direction and practical design solutions for brands, businesses and creators.
+            </p>
+          </div>
+
+          <!-- Massive Typographic Statement -->
+          <div class="about-massive-statement-card reveal-up">
+            <div class="statement-hairline-accent"></div>
+            <h3 class="massive-statement-text">
+              TWO MINDS.<br>
+              <span class="statement-blue">ONE CREATIVE DIRECTION.</span>
+            </h3>
+            <p class="statement-caption">
+              Direct collaboration between two seasoned perspectives ensures every project balances structural discipline with visual punch.
+            </p>
+
+            <div class="dual-partner-strip">
+              <div class="partner-cell">
+                <span class="p-digit">01</span>
+                <span class="p-title">STRUCTURE &amp; HIERARCHY</span>
+                <span class="p-desc">Typography, grid balance, layout strategy, and functional communication.</span>
+              </div>
+              <div class="partner-cell-divider"></div>
+              <div class="partner-cell">
+                <span class="p-digit blue-num">02</span>
+                <span class="p-title">IMPACT &amp; POLISH</span>
+                <span class="p-desc">Color harmony, visual depth, lighting detail, and high-retention finishing.</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =======================================================
+         4. SERVICES SECTION (Interactive Editorial List)
+         ======================================================= -->
+    <section class="services-section section-padding" id="services">
+      <div class="container">
+        
+        <!-- Header -->
+        <div class="section-header-editorial reveal-up">
+          <div class="header-pre-title">
+            <span class="editorial-num">03</span>
+            <span class="editorial-kicker">CORE DISCIPLINES</span>
+          </div>
+          <div class="header-title-flex">
+            <h2 class="editorial-main-title">WHAT WE DESIGN</h2>
+            <p class="editorial-lead-desc">
+              Tailored visual solutions crafted with precision for businesses, creators, and ambitious brands.
+            </p>
+          </div>
+        </div>
+
+        <!-- Clean Editorial Services List with Hover Reveal -->
+        <div class="services-editorial-list reveal-up">
+          
+          <!-- 01 -->
+          <div class="service-row" data-service-index="1">
+            <div class="service-row-inner">
+              <span class="service-index-code">01</span>
+              <div class="service-main-block">
+                <h3 class="service-heading">SOCIAL MEDIA</h3>
+                <span class="service-tags">Posts &bull; Stories &bull; Promotional Creatives</span>
+              </div>
+              <div class="service-desc-block">
+                <p>Scroll-stopping visual feeds, engagement-first story designs, and promotional post systems built for Instagram, LinkedIn, and creators.</p>
+              </div>
+              <div class="service-arrow-col">
+                <span class="service-arrow">&rarr;</span>
+              </div>
+            </div>
+            <div class="service-active-bar"></div>
+          </div>
+
+          <!-- 02 -->
+          <div class="service-row" data-service-index="2">
+            <div class="service-row-inner">
+              <span class="service-index-code">02</span>
+              <div class="service-main-block">
+                <h3 class="service-heading">POSTERS &amp; ADS</h3>
+                <span class="service-tags">Campaigns &bull; Promotions &bull; Events</span>
+              </div>
+              <div class="service-desc-block">
+                <p>Bold editorial compositions, product showcase posters, and commercial promotional graphics designed to command immediate focus.</p>
+              </div>
+              <div class="service-arrow-col">
+                <span class="service-arrow">&rarr;</span>
+              </div>
+            </div>
+            <div class="service-active-bar"></div>
+          </div>
+
+          <!-- 03 -->
+          <div class="service-row" data-service-index="3">
+            <div class="service-row-inner">
+              <span class="service-index-code">03</span>
+              <div class="service-main-block">
+                <h3 class="service-heading">BRANDING</h3>
+                <span class="service-tags">Logos &bull; Visual Identity &bull; Brand Assets</span>
+              </div>
+              <div class="service-desc-block">
+                <p>Distinctive logo identities, typography systems, color guidelines, and cohesive visual language that sets brands apart.</p>
+              </div>
+              <div class="service-arrow-col">
+                <span class="service-arrow">&rarr;</span>
+              </div>
+            </div>
+            <div class="service-active-bar"></div>
+          </div>
+
+          <!-- 04 -->
+          <div class="service-row" data-service-index="4">
+            <div class="service-row-inner">
+              <span class="service-index-code">04</span>
+              <div class="service-main-block">
+                <h3 class="service-heading">BUSINESS DESIGN</h3>
+                <span class="service-tags">Visiting Cards &bull; Flyers &bull; Brochures</span>
+              </div>
+              <div class="service-desc-block">
+                <p>Tactile, executive corporate print collateral and stationery tailored for memorable client meetings and physical marketing.</p>
+              </div>
+              <div class="service-arrow-col">
+                <span class="service-arrow">&rarr;</span>
+              </div>
+            </div>
+            <div class="service-active-bar"></div>
+          </div>
+
+          <!-- 05 -->
+          <div class="service-row" data-service-index="5">
+            <div class="service-row-inner">
+              <span class="service-index-code">05</span>
+              <div class="service-main-block">
+                <h3 class="service-heading">DIGITAL CREATIVES</h3>
+                <span class="service-tags">Banners &bull; Thumbnails &bull; Digital Ads</span>
+              </div>
+              <div class="service-desc-block">
+                <p>High-click-through YouTube thumbnails, multi-platform banner suites, and digital campaign creatives optimized for conversions.</p>
+              </div>
+              <div class="service-arrow-col">
+                <span class="service-arrow">&rarr;</span>
+              </div>
+            </div>
+            <div class="service-active-bar"></div>
+          </div>
+
+          <!-- 06 -->
+          <div class="service-row" data-service-index="6">
+            <div class="service-row-inner">
+              <span class="service-index-code">06</span>
+              <div class="service-main-block">
+                <h3 class="service-heading">CUSTOM DESIGN</h3>
+                <span class="service-tags">Creative concepts tailored to each requirement</span>
+              </div>
+              <div class="service-desc-block">
+                <p>Bespoke visual exploration, specialized creative requests, and custom experimental design packages tailored to your vision.</p>
+              </div>
+              <div class="service-arrow-col">
+                <span class="service-arrow">&rarr;</span>
+              </div>
+            </div>
+            <div class="service-active-bar"></div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =======================================================
+         5. PROCESS SECTION (From Idea to Impact)
+         ======================================================= -->
+    <section class="process-section section-padding" id="process">
+      <div class="container">
+        
+        <!-- Header -->
+        <div class="section-header-editorial reveal-up">
+          <div class="header-pre-title">
+            <span class="editorial-num">04</span>
+            <span class="editorial-kicker">METHODOLOGY</span>
+          </div>
+          <h2 class="editorial-main-title">
+            FROM IDEA<br>
+            <span class="statement-blue">TO IMPACT.</span>
+          </h2>
+        </div>
+
+        <!-- 4-Step Minimal Grid -->
+        <div class="process-steps-grid reveal-up">
+          
+          <div class="process-step-item">
+            <div class="step-num-badge">01</div>
+            <h3 class="step-title">DISCOVER</h3>
+            <p class="step-desc">Understand the brand, audience and objective.</p>
+            <div class="step-connector"></div>
+          </div>
+
+          <div class="process-step-item">
+            <div class="step-num-badge">02</div>
+            <h3 class="step-title">DIRECTION</h3>
+            <p class="step-desc">Build the visual concept and creative direction.</p>
+            <div class="step-connector"></div>
+          </div>
+
+          <div class="process-step-item">
+            <div class="step-num-badge">03</div>
+            <h3 class="step-title">DESIGN</h3>
+            <p class="step-desc">Develop the final visual with attention to typography, composition and detail.</p>
+            <div class="step-connector"></div>
+          </div>
+
+          <div class="process-step-item">
+            <div class="step-num-badge blue-badge">04</div>
+            <h3 class="step-title">DELIVER</h3>
+            <p class="step-desc">Prepare polished, ready-to-use design assets.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- =======================================================
+         6. CONTACT SECTION (Dramatic Final Agency Closer)
+         ======================================================= -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        
+        <div class="contact-dramatic-wrapper reveal-up">
+          <div class="contact-ambient-glow" aria-hidden="true"></div>
+
+          <div class="contact-content-inner">
+            <span class="contact-status-kicker">FREELANCE COMMISSIONS OPEN</span>
+            
+            <h2 class="contact-dramatic-headline">
+              HAVE A PROJECT?<br>
+              <span class="headline-blue">LET’S CREATE IT.</span>
+            </h2>
+
+            <p class="contact-dramatic-sub">
+              Got an idea, campaign or brand that needs better visuals?<br>
+              Let’s turn it into something people remember.
+            </p>
+
+            <!-- Contact Channels: Instagram + Email -->
+            <div class="contact-channels">
+
+              <!-- Instagram -->
+              <div class="contact-channel-item">
+                <span class="channel-label">INSTAGRAM</span>
+                <a href="https://www.instagram.com/duodesigns.in/" target="_blank" rel="noopener noreferrer" class="channel-handle">@duodesigns.in</a>
+              </div>
+
+              <div class="channel-divider" aria-hidden="true"></div>
+
+              <!-- Email -->
+              <div class="contact-channel-item">
+                <span class="channel-label">EMAIL</span>
+                <a href="mailto:duodesigns.in@gmail.com" class="channel-handle">duodesigns.in@gmail.com</a>
+              </div>
+
+            </div>
+
+            <div class="contact-action-box">
+              <a href="https://www.instagram.com/duodesigns.in/" target="_blank" rel="noopener noreferrer" class="btn-agency-primary btn-large-contact" id="btnStartProject">
+                <span>START A PROJECT</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="7" y1="17" x2="17" y2"/><polyline points="7 7 17 7 17 17"/></svg>
+              </a>
+
+              <button type="button" class="btn-agency-secondary btn-large-contact" id="btnCopyHandle" onclick="DUO_AGENCY.copyHandle()">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                <span id="copyTextHandle">COPY @duodesigns.in</span>
+              </button>
+
+              <a href="mailto:duodesigns.in@gmail.com" class="btn-agency-secondary btn-large-contact" id="btnEmailContact">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,4 12,13 22,4"/></svg>
+                <span>EMAIL US</span>
+              </a>
+            </div>
+
+            <!-- Copy Toast Notification -->
+            <div class="copy-success-toast" id="copySuccessToast" aria-live="polite">
+              <span>&check; Instagram handle copied to clipboard!</span>
+            </div>
+
+            <!-- Studio Identity Card -->
+            <div class="contact-studio-meta">
+              <div class="meta-brand-row">
+                <span class="meta-brand-title">DUO DESIGNS</span>
+                <span class="meta-brand-pipe">&bull;</span>
+                <span class="meta-brand-services">Graphic Design &bull; Branding &bull; Social Media</span>
+              </div>
+              <p class="meta-reach-note">
+                Reach us on Instagram <strong>@duodesigns.in</strong> or email <strong>duodesigns.in@gmail.com</strong> for briefs, availability, and project timelines.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- =======================================================
+       FOOTER
+       ======================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="footer-brand-title">DUO DESIGNS</span>
+        <span class="footer-motto">Designing Ideas, Creating Impact</span>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer Navigation">
+        <a href="#work">WORK</a>
+        <a href="#about">ABOUT</a>
+        <a href="#services">SERVICES</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+
+      <div class="footer-right">
+        <span class="footer-copy">&copy; 2026 DUO DESIGNS</span>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Fullscreen Modal / Artwork Inspection -->
+  <div class="agency-modal" id="artworkModal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-backdrop" onclick="DUO_AGENCY.closeModal()"></div>
+    <div class="modal-card">
+      <button type="button" class="modal-close-trigger" onclick="DUO_AGENCY.closeModal()" aria-label="Close modal">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="modal-layout-grid">
+        <div class="modal-stage">
+          <img src="" alt="" class="modal-full-img" id="modalImg">
+        </div>
+        <div class="modal-details">
+          <div class="modal-header">
+            <span class="modal-tag" id="modalCategory">CONCEPT DESIGN</span>
+            <h3 class="modal-title" id="modalTitle">PROJECT TITLE</h3>
+            <span class="modal-focus" id="modalFocus">Focus breakdown</span>
+          </div>
+          <div class="modal-divider"></div>
+          <p class="modal-desc" id="modalDesc">Project description text.</p>
+          <div class="modal-spec-block">
+            <div class="spec-item">
+              <span class="sk">STUDIO:</span>
+              <span class="sv">DUO DESIGNS</span>
+            </div>
+            <div class="spec-item">
+              <span class="sk">STATUS:</span>
+              <span class="sv">PRACTICE / CONCEPT EXPLORATION</span>
+            </div>
+            <div class="spec-item">
+              <span class="sk">DELIVERY:</span>
+              <span class="sv">HIGH RESOLUTION COMMERCIAL SPEC</span>
+            </div>
+          </div>
+          <div class="modal-footer-cta">
+            <a href="#contact" class="btn-agency-primary" onclick="DUO_AGENCY.closeModal()">
+              <span>COMMISSION SIMILAR PROJECT</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- "View All Work" Drawer / Modal -->
+  <div class="all-work-drawer" id="allWorkDrawer" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="drawer-backdrop" onclick="DUO_AGENCY.closeAllWorkDrawer()"></div>
+    <div class="drawer-dialog">
+      <div class="drawer-header">
+        <div>
+          <span class="drawer-subtitle">COMPLETE STUDIO REPERTOIRE</span>
+          <h3 class="drawer-heading">ALL CONCEPT &amp; DESIGN EXPLORATIONS</h3>
+        </div>
+        <button type="button" class="drawer-close-btn" onclick="DUO_AGENCY.closeAllWorkDrawer()" aria-label="Close all work drawer">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+
+      <div class="drawer-gallery-grid">
+        
+        <div class="drawer-item" onclick="DUO_AGENCY.openModal('assets/coffee-concept.png', 'COFFEE — CONCEPT ADVERTISEMENT', 'Concept Advertisement', 'Composition • Typography • Product Visual', 'A conceptual product advertisement exploring composition, typography, product placement and visual storytelling.')">
+          <img src="assets/coffee-concept.png" alt="Brew & Bean Coffee Artwork" loading="lazy">
+          <div class="drawer-item-info">
+            <span class="d-num">01</span>
+            <span class="d-name">BREW &amp; BEAN COFFEE</span>
+            <span class="d-badge">CONCEPT AD</span>
+          </div>
+        </div>
+
+        <div class="drawer-item" onclick="DUO_AGENCY.openModal('assets/volt-concept.jpg', 'VOLT — CONCEPT ADVERTISEMENT', 'Concept Advertisement', 'Visual Impact • Typography • Composition', 'A conceptual energy-product advertisement focused on bold visual hierarchy, contrast, typography and promotional composition.')">
+          <img src="assets/volt-concept.jpg" alt="Volt Energy Drink Artwork" loading="lazy">
+          <div class="drawer-item-info">
+            <span class="d-num">02</span>
+            <span class="d-name">VOLT ENERGY FORMULA</span>
+            <span class="d-badge">CONCEPT AD</span>
+          </div>
+        </div>
+
+        <div class="drawer-item" onclick="DUO_AGENCY.openModal('assets/amul-concept.png', 'AMUL — BRAND CONCEPT', 'Brand Concept', 'Advertising • Composition • Visual Storytelling', 'Self-initiated brand concept celebrating heritage packaging, buttery swirls, toasted bread, and appetizing commercial staging.')">
+          <img src="assets/amul-concept.png" alt="Amul Brand Concept Artwork" loading="lazy">
+          <div class="drawer-item-info">
+            <span class="d-num">03</span>
+            <span class="d-name">AMUL BUTTER CONCEPT</span>
+            <span class="d-badge">BRAND CONCEPT</span>
+          </div>
+        </div>
+
+        <div class="drawer-item" onclick="DUO_AGENCY.openModal('assets/coca-cola-concept.jpg', 'COCA-COLA — CONCEPT ADVERTISEMENT', 'Concept Advertisement', 'Fluid Splash • Lighting Dynamics • Brand Focal Point', 'Conceptual beverage advertisement spotlighting high-energy fluid splashes and iconic crimson contrast.')">
+          <img src="assets/coca-cola-concept.jpg" alt="Coca-Cola Concept Artwork" loading="lazy">
+          <div class="drawer-item-info">
+            <span class="d-num">04</span>
+            <span class="d-name">COCA-COLA REFRESH</span>
+            <span class="d-badge">CONCEPT AD</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
