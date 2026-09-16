@@ -1,0 +1,157 @@
+<svg width="1200" height="1400" viewBox="0 0 1200 1400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="1400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2B140D"/>
+      <stop offset="0.45" stop-color="#391A12"/>
+      <stop offset="1" stop-color="#1B0908"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(780 330) rotate(90) scale(500 700)">
+      <stop stop-color="#FFB067" stop-opacity="0.55"/>
+      <stop offset="0.45" stop-color="#AA4A1C" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#1B0908" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="choco" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7B3B21"/>
+      <stop offset="0.28" stop-color="#4C2514"/>
+      <stop offset="0.62" stop-color="#2E160D"/>
+      <stop offset="1" stop-color="#4A2515"/>
+    </linearGradient>
+    <linearGradient id="chocoLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9E5932"/>
+      <stop offset="0.5" stop-color="#5B2F1E"/>
+      <stop offset="1" stop-color="#3D1E11"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#71A65A"/>
+      <stop offset="1" stop-color="#3A6D2A"/>
+    </linearGradient>
+    <linearGradient id="bean" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7D3B1F"/>
+      <stop offset="1" stop-color="#3B1E11"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="25" stdDeviation="32" flood-color="#180907" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1400" fill="url(#bg)"/>
+  <ellipse cx="742" cy="395" rx="500" ry="360" fill="url(#glow)"/>
+  <ellipse cx="1020" cy="880" rx="170" ry="120" fill="#2A120C" opacity="0.65"/>
+
+  <text x="110" y="140" fill="#F6E8DF" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="82" letter-spacing="2">CACAO</text>
+  <text x="114" y="198" fill="#E2BD7B" font-family="Arial, sans-serif" font-size="24" letter-spacing="10">PREMIUM CHOCOLATE</text>
+  <rect x="102" y="224" width="480" height="4" fill="#D4A85B" opacity="0.9"/>
+
+  <g transform="translate(110 210)">
+    <text x="0" y="260" fill="#F3E1D1" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="142" letter-spacing="-7">A TASTE</text>
+    <text x="0" y="390" fill="#F3E1D1" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="142" letter-spacing="-7">WORTH</text>
+    <text x="0" y="520" fill="#F3E1D1" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="142" letter-spacing="-7">REMEMBERING</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(610 560) rotate(0)">
+      <rect x="0" y="0" width="420" height="500" rx="4" fill="url(#choco)"/>
+      <rect x="16" y="16" width="388" height="468" rx="2" fill="url(#chocoLight)" opacity="0.6"/>
+
+      <g stroke="#3A1A0F" stroke-width="7" opacity="0.7">
+        <line x1="0" y1="120" x2="420" y2="120"/>
+        <line x1="0" y1="240" x2="420" y2="240"/>
+        <line x1="0" y1="360" x2="420" y2="360"/>
+        <line x1="105" y1="0" x2="105" y2="500"/>
+        <line x1="210" y1="0" x2="210" y2="500"/>
+        <line x1="315" y1="0" x2="315" y2="500"/>
+      </g>
+
+      <g fill="#2B180F" opacity="0.45">
+        <circle cx="52" cy="58" r="28"/>
+        <circle cx="157" cy="58" r="28"/>
+        <circle cx="262" cy="58" r="28"/>
+        <circle cx="367" cy="58" r="28"/>
+
+        <circle cx="52" cy="178" r="28"/>
+        <circle cx="157" cy="178" r="28"/>
+        <circle cx="262" cy="178" r="28"/>
+        <circle cx="367" cy="178" r="28"/>
+
+        <circle cx="52" cy="298" r="28"/>
+        <circle cx="157" cy="298" r="28"/>
+        <circle cx="262" cy="298" r="28"/>
+        <circle cx="367" cy="298" r="28"/>
+
+        <circle cx="52" cy="418" r="28"/>
+        <circle cx="157" cy="418" r="28"/>
+        <circle cx="262" cy="418" r="28"/>
+        <circle cx="367" cy="418" r="28"/>
+      </g>
+
+      <g fill="#B36A3D" opacity="0.18">
+        <path d="M60 62C80 36 104 34 120 58C104 76 82 84 60 62Z"/>
+        <path d="M165 62C185 36 209 34 225 58C209 76 187 84 165 62Z"/>
+        <path d="M270 62C290 36 314 34 330 58C314 76 292 84 270 62Z"/>
+        <path d="M375 62C395 36 419 34 435 58C419 76 397 84 375 62Z"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(0 0)">
+    <g transform="translate(900 885) rotate(10)">
+      <path d="M0 100C35 30 115 10 160 38C165 72 150 108 130 142C92 166 28 166 0 100Z" fill="url(#leaf)"/>
+      <path d="M40 28C86 65 95 115 62 168C38 115 25 84 40 28Z" fill="#4C7A3B" opacity="0.9"/>
+      <path d="M105 70C140 90 175 102 206 124C170 136 129 160 101 190C74 155 80 108 105 70Z" fill="#3E612F" opacity="0.85"/>
+    </g>
+
+    <g transform="translate(985 1085) rotate(16)">
+      <path d="M0 138C50 70 93 52 136 92C155 126 143 184 116 194C63 206 25 181 0 138Z" fill="url(#bean)"/>
+      <path d="M60 86C85 87 104 103 108 124C84 146 52 156 28 154C22 130 34 104 60 86Z" fill="#5B2F1A" opacity="0.3"/>
+      <path d="M58 110C81 98 126 89 143 122C126 130 111 138 93 145C65 139 56 131 58 110Z" fill="#2C130C" opacity="0.28"/>
+    </g>
+
+    <g transform="translate(107 1045) rotate(-12)">
+      <path d="M0 90C36 30 112 6 162 38C184 96 158 154 112 174C53 165 16 139 0 90Z" fill="url(#bean)"/>
+      <path d="M44 78C68 78 89 90 102 116C76 132 47 134 19 127C17 106 25 94 44 78Z" fill="#5B2F1A" opacity="0.32"/>
+    </g>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M196 938L242 1044L336 984L289 868L196 938Z" fill="url(#chocoLight)"/>
+    <path d="M380 860L456 1040L630 970L546 790L380 860Z" fill="url(#choco)"/>
+    <path d="M490 1020L560 1104L664 1044L600 934L490 1020Z" fill="#4D2717"/>
+    <path d="M548 912L602 1013L683 970L620 870L548 912Z" fill="#6B3B23" opacity="0.9"/>
+    <path d="M232 1038L344 1116L438 1008L330 932L232 1038Z" fill="#5E2D1C"/>
+  </g>
+
+  <g transform="translate(252 880)">
+    <path d="M0 0L118 74L60 160L-52 100L0 0Z" fill="#6D3824" opacity="0.9"/>
+    <path d="M86 56L177 8L214 102L117 150L86 56Z" fill="#4A2415" opacity="0.82"/>
+    <path d="M124 134L184 180L230 134L176 84L124 134Z" fill="#3E1E12" opacity="0.76"/>
+  </g>
+
+  <g fill="#E9C98B" opacity="0.95">
+    <circle cx="683" cy="1182" r="26"/>
+    <circle cx="765" cy="1170" r="18"/>
+    <circle cx="835" cy="1214" r="22"/>
+    <circle cx="923" cy="1188" r="20"/>
+    <circle cx="996" cy="1240" r="16"/>
+  </g>
+
+  <g fill="#5C2F1E" opacity="0.8">
+    <circle cx="692" cy="1184" r="10"/>
+    <circle cx="768" cy="1172" r="7"/>
+    <circle cx="838" cy="1218" r="8"/>
+    <circle cx="926" cy="1190" r="8"/>
+    <circle cx="998" cy="1243" r="6"/>
+  </g>
+
+  <g transform="translate(0 0)">
+    <path d="M550 316C592 286 635 278 691 282C649 324 621 381 620 440C596 425 576 392 550 316Z" fill="#7F9E67" opacity="0.35"/>
+    <path d="M952 474C1011 440 1050 447 1100 480C1042 512 1014 560 988 610C962 564 954 515 952 474Z" fill="#5F8C4B" opacity="0.33"/>
+  </g>
+
+  <g opacity="0.55">
+    <circle cx="183" cy="278" r="2.5" fill="#E1B565"/>
+    <circle cx="220" cy="302" r="2.5" fill="#E1B565"/>
+    <circle cx="246" cy="282" r="2.5" fill="#E1B565"/>
+    <circle cx="1116" cy="290" r="2.5" fill="#E1B565"/>
+    <circle cx="1088" cy="316" r="2.5" fill="#E1B565"/>
+  </g>
+</svg>
