@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Duodesigns Portfolio
 
 Static portfolio site. This repository contains the site source files.
@@ -34,3 +35,6 @@ git push -u origin main
 ```
 
 Or create a Personal Access Token (PAT) on GitHub and use it when prompted for a password.
+=======
+
+>>>>>>> 6b05565a5a366f630234e41a85a9a2a3d95da03d
